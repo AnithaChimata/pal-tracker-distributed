@@ -7,6 +7,6 @@ applications:
     routes:
       - route: backlog-aa.cfapps.io
     path: Applications/BacklogServer/bin/Release/netcoreapp3.1/publish
-       services:
+    services:
       - tracker-backlog-database
       - tracker-service-registry
